@@ -163,13 +163,6 @@
 
 .card {
   position: relative;
-  z-index: 0;
-  display: flex;
-  height: 100%;
-}
-
-.card__wrapper {
-  z-index: 2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -190,6 +183,7 @@
 }
 
 .card__title {
+  z-index: 2;
   margin-bottom: 30px;
   color: #ffffff;
   font-weight: 700;
@@ -200,6 +194,7 @@
 }
 
 .card__text {
+  z-index: 2;
   color: #ffffff;
   font-weight: 400;
   font-size: 20px;
