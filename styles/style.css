@@ -19,6 +19,10 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
 }
 
 .header__link_active {
@@ -41,6 +45,14 @@
   font-size: 18px;
   font-style: normal;
   line-height: 24px;
+}
+
+.address__phone,
+.address__email {
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
 }
 
 .cover {
@@ -190,6 +202,9 @@
   font-size: 22px;
   line-height: 120%;
   text-decoration: underline;
+  text-decoration-color: currentColor;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
   text-transform: uppercase;
 }
 
@@ -203,12 +218,13 @@
 
 .lots__look-more-link {
   margin-left: 40px;
-  border-bottom: 1px solid #000000;
-  padding-bottom: 2px;
   font-weight: 400;
   font-size: 20px;
   line-height: 100%;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
 }
 
 .about {
@@ -216,7 +232,7 @@
   grid-template-columns: 334px 1fr;
   gap: 25px;
   min-height: 595px;
-  margin-bottom: 185px;
+  margin-bottom: 182px;
   padding: 0 24px;
 }
 
@@ -267,6 +283,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 3px;
   list-style: none;
 }
 
@@ -274,6 +291,10 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
 }
 
 .footer__menu-link_active {
