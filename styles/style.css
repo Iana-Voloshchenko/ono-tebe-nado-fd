@@ -231,8 +231,7 @@
   display: grid;
   grid-template-columns: 334px 1fr;
   gap: 25px;
-  min-height: 595px;
-  margin-bottom: 182px;
+  margin-bottom: 183px;
   padding: 0 24px;
 }
 
@@ -251,6 +250,7 @@
   flex-direction: column;
   justify-content: end;
   gap: 100px;
+  padding: 142px 0 0;
 }
 
 .about__title {
